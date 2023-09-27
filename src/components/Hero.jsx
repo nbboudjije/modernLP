@@ -1,10 +1,15 @@
 import React from "react";
 import Typed from "react-typed";
+import { motion } from "framer-motion";
+import { headContainerAnimation } from "../motion";
 
 const Hero = () => {
   return (
     <div className="text-white">
-      <div className="w-100% flex justify-center items-center flex-col h-[80vh] ">
+      <motion.div
+        className="w-100% flex justify-center items-center flex-col h-[80vh] "
+        {...headContainerAnimation}
+      >
         <p className="font-bold p-2">GROW YOUR BIZ WITH DATA</p>
         <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold p-2">
           Turn Data to Profits
@@ -28,7 +33,7 @@ const Hero = () => {
         <button className="text-center bg-[#1f6e8c] cursor-pointer p-2 hover:bg-white hover:text-black rounded-lg font-semibold">
           GET STARTED
         </button>
-      </div>
+      </motion.div>
     </div>
   );
 };
