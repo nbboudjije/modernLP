@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/modernLP/static/css/main.da4d6cc3.css",
+    "main.js": "/modernLP/static/js/main.623ef19f.js",
+    "static/media/laptop.jpg": "/modernLP/static/media/laptop.45ddf500e572fb2f1d35.jpg",
+    "static/media/single.png": "/modernLP/static/media/single.20196aa3e7e7fa48f8f7.png",
+    "static/media/double.png": "/modernLP/static/media/double.8be045e6bb88be63d414.png",
+    "static/media/triple.png": "/modernLP/static/media/triple.4eb8f19f4b4647321484.png",
+    "index.html": "/modernLP/index.html",
+    "main.da4d6cc3.css.map": "/modernLP/static/css/main.da4d6cc3.css.map",
+    "main.623ef19f.js.map": "/modernLP/static/js/main.623ef19f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da4d6cc3.css",
+    "static/js/main.623ef19f.js"
+  ]
+}
